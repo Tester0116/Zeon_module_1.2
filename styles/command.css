@@ -1,0 +1,15 @@
+.container {
+  margin: 0 140px;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 32px;
+  background-color: #f4ab00;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
