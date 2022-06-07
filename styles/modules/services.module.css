@@ -37,16 +37,18 @@
   background: #f4ab00;
   transition: all 0.3s ease-in-out;
 }
-.services-block__first-side > .service-block:hover > span {
+.services-block__first-side > .service-block:hover > b {
   color: white;
 }
 
-.services-block__first-side > .service-block > span {
+.services-block__first-side > .service-block > b {
   color: #2c1258;
   padding: 14px 0;
+  margin-bottom: 5px;
 }
 
 .service-block__yellow-block {
+  display: block;
   position: absolute;
   bottom: 0;
   width: 25px;

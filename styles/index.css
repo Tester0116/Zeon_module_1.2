@@ -5,6 +5,7 @@
 @import './modules/header.module.css';
 @import './modules/whyseo.module.css';
 @import './modules/services.module.css';
+@import './modules/team.module.css';
 * {
   margin: 0;
   padding: 0;
