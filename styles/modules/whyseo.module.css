@@ -135,7 +135,7 @@
 .whyseo-second_block__bottom-wave img {
   width: 100%;
 }
-.bottom-wave_bg {
+.whyseo-second_block__bottom-wave > .bottom-wave_bg {
   height: auto;
   width: 100%;
   background-color: #6425cb;

@@ -92,7 +92,7 @@
 .home-overside__wave > img {
   width: 100%;
 }
-.bottom-wave_bg {
+.home-overside__wave > .bottom-wave_bg {
   height: 124px;
   width: 100%;
   background-color: #6425cb;
