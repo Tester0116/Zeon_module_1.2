@@ -113,17 +113,39 @@
 /* ########## START SECOND BLOCK ########## */
 
 .home-second_block {
-  margin-top: 70px;
+  margin-top: 145px;
 }
 .home-second_block > .container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  gap: 80px;
 }
 .home-second_block--left_side img {
   width: 100%;
 }
 
-.home-second_block--right_side {
+.home-second_block--right_side > h4 {
+  max-width: 269px;
+}
+
+.home-second_block--right_side > h1 {
+  max-width: 490px;
+}
+.home-second_block--right_side > p {
+  max-width: 456px;
+}
+
+.home-second_block--right_side > .benefits-block {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+}
+
+.home-second_block--right_side .benefit {
+  margin-bottom: 14px;
+}
+.home-second_block--right_side > .benefits-block span {
+  color: #2c1258;
 }
