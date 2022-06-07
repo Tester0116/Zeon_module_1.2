@@ -1,5 +1,6 @@
 .container {
-  margin: 0 140px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -12,4 +13,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.block-title {
+  font-size: 15px;
+  font-size: 19px;
+  line-height: 30px;
+  color: #f4ab00;
+}
+
+.block-sub_title {
+  font-size: 42px;
+  line-height: 56px;
+  color: #2c1258;
+}
+
+.block-description {
+  font-size: 18px;
+  line-height: 34px;
+  color: #604b83;
 }

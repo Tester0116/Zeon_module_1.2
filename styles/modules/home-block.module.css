@@ -1,0 +1,129 @@
+.home-block {
+  background-color: #6425cb;
+  padding-top: 100px;
+}
+.home-block__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  flex-grow: 1;
+}
+
+.home-block--left_side {
+  max-width: 50%;
+}
+.home-block--left_side > h1 {
+  font: 400 60px 'Nunito';
+  line-height: 70px;
+}
+.home-block--left_side span {
+  font: 400 60px 'Nunito';
+  line-height: 70px;
+  color: #f4ab00;
+}
+
+.home-block--left_side > p {
+  max-width: 409px;
+  font-size: 18px;
+  line-height: 34px;
+  margin-top: 41px;
+}
+
+.home-block--left_side > button {
+  margin-top: 40px;
+  width: 186px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.home-block__content img {
+  width: 100%;
+  transform: translateX(90px);
+}
+/* ------------------ */
+.home-overside {
+  position: relative;
+}
+.home-overside__block {
+  position: relative;
+  background-color: #fff;
+  max-width: 1160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 90px;
+  padding: 100px 80px;
+  z-index: 2;
+  margin: 0 auto;
+  box-shadow: 9px 9px 35px rgba(56, 11, 113, 0.1);
+  border-radius: 10px;
+}
+.home-overside__block--left_side > h4 {
+  max-width: 284px;
+}
+
+.home-overside__block--left_side > h1 {
+  max-width: 393px;
+}
+
+.home-overside__block--left_side > p {
+  max-width: 470px;
+}
+
+.home-overside__block--right_side {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.home-overside__block--right_side > .block {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.home-overside__block--right_side h5 {
+  font-size: 19px;
+  line-height: 30px;
+  color: #2c1258;
+}
+
+.home-overside__block--right_side p {
+  max-width: 270px;
+  font-size: 15px;
+  color: #604b83;
+}
+
+.home-overside__wave {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.home-overside__wave > img {
+  width: 100%;
+}
+.wave_bg {
+  height: 124px;
+  width: 100%;
+  background-color: #6425cb;
+}
+
+/* ########## START SECOND BLOCK ########## */
+
+.home-second_block {
+  margin-top: 70px;
+}
+.home-second_block > .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-second_block--left_side img {
+  width: 100%;
+}
+
+.home-second_block--right_side {
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 @import './command.css';
-@import './modules/first-block.module.css';
+@import './modules/home-block.module.css';
 @import './modules/header.module.css';
 * {
   margin: 0;

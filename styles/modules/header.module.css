@@ -1,3 +1,8 @@
+header {
+  background-color: #6425cb;
+  position: relative;
+}
+
 .header-infoNlinks {
   display: flex;
   flex-direction: row;
