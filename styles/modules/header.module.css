@@ -68,4 +68,6 @@ header {
 .header-nav__block > button {
   height: 40px;
   width: 100px;
+  line-height: 19px;
+  font-size: 13px;
 }

@@ -34,8 +34,6 @@
   margin-top: 40px;
   width: 186px;
   height: 52px;
-  font-size: 16px;
-  line-height: 22px;
 }
 
 .home-block__content img {
@@ -94,7 +92,7 @@
 .home-overside__wave > img {
   width: 100%;
 }
-.wave_bg {
+.bottom-wave_bg {
   height: 124px;
   width: 100%;
   background-color: #6425cb;

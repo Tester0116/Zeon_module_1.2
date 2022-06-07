@@ -46,11 +46,97 @@
   font-size: 15px;
   color: #2c1258;
 }
+
 /* ########## START SECOND BLOCK ########## */
+
 .whyseo-second_block {
   margin-top: 80px;
+  background-color: #6425cb;
+  position: relative;
+  padding-bottom: 130px;
+}
+
+.whyseo-second_block__top-wave {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 .whyseo-second_block__top-wave img {
   width: 100%;
+}
+.top-wave_bg {
+  width: 100%;
+  background-color: #6425cb;
+}
+
+.whyseo-second_block > .container {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 56px;
+}
+
+.whyseo-second_block__left-side > h1 {
+  width: 302px;
+  color: white;
+}
+.whyseo-second_block__left-side > p {
+  width: 433px;
+  margin: 26px 0;
+  color: white;
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.whyseo-second_block__left-side > button {
+  width: 186px;
+  height: 52px;
+}
+
+/* start right side */
+.optimizations-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.optimizations-block > :nth-child(even) {
+  transform: translateY(25px);
+}
+
+/* every blocks */
+.optimization {
+  padding: 35px;
+  max-width: 318px;
+  border-radius: 4px;
+  background-color: white;
+}
+.optimization > h4 {
+  font-size: 19px;
+  line-height: 30px;
+  margin: 25px 0 14px 0;
+  color: #2c1258;
+}
+.optimization > p {
+  font-size: 15px;
+  color: #604b83;
+}
+
+.whyseo-second_block__bottom-wave {
+  width: 100%;
+  position: absolute;
+  bottom: -110px;
+  z-index: 1;
+}
+
+.whyseo-second_block__bottom-wave img {
+  width: 100%;
+}
+.bottom-wave_bg {
+  height: auto;
+  width: 100%;
+  background-color: #6425cb;
 }
