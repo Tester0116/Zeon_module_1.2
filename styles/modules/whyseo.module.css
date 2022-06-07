@@ -1,0 +1,56 @@
+.whyseo-block {
+  margin-top: 174px;
+}
+
+.whyseo-block > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.whyseo-block__left-side > h4 {
+  margin-top: 24px;
+}
+.whyseo-block__left-side > h1 {
+  margin: 20px 0 26px 0;
+  max-width: 480px;
+}
+.whyseo-block__left-side > p {
+  max-width: 535px;
+}
+
+.statistics-block,
+.statistica {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+.statistica {
+  min-width: 253px;
+  margin-top: 0;
+  gap: 20px;
+  background-color: #f6f1ff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.statistics-block h1 {
+  font-size: 28px;
+  line-height: 36px;
+  color: #2c1258;
+}
+.statistics-block p {
+  font-size: 15px;
+  color: #2c1258;
+}
+/* ########## START SECOND BLOCK ########## */
+.whyseo-second_block {
+  margin-top: 80px;
+}
+
+.whyseo-second_block__top-wave img {
+  width: 100%;
+}

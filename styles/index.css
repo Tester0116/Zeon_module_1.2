@@ -3,6 +3,7 @@
 @import './command.css';
 @import './modules/home-block.module.css';
 @import './modules/header.module.css';
+@import './modules/whyseo.module.css';
 * {
   margin: 0;
   padding: 0;

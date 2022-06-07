@@ -60,17 +60,6 @@
   box-shadow: 9px 9px 35px rgba(56, 11, 113, 0.1);
   border-radius: 10px;
 }
-.home-overside__block--left_side > h4 {
-  max-width: 284px;
-}
-
-.home-overside__block--left_side > h1 {
-  max-width: 393px;
-}
-
-.home-overside__block--left_side > p {
-  max-width: 470px;
-}
 
 .home-overside__block--right_side {
   display: flex;
@@ -96,6 +85,7 @@
 }
 
 .home-overside__wave {
+  width: 100%;
   position: absolute;
   top: 0;
   z-index: 1;
@@ -113,7 +103,8 @@
 /* ########## START SECOND BLOCK ########## */
 
 .home-second_block {
-  margin-top: 145px;
+  margin-top: 70px;
+  padding: 75px 7px 0 30px;
 }
 .home-second_block > .container {
   display: flex;

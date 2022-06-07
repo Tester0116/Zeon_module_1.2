@@ -16,6 +16,7 @@
 }
 
 .block-title {
+  max-width: 284px;
   font-size: 15px;
   font-size: 19px;
   line-height: 30px;
@@ -23,12 +24,14 @@
 }
 
 .block-sub_title {
+  max-width: 393px;
   font-size: 42px;
   line-height: 56px;
   color: #2c1258;
 }
 
 .block-description {
+  max-width: 470px;
   font-size: 18px;
   line-height: 34px;
   color: #604b83;
