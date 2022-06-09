@@ -1,3 +1,11 @@
+/* for scroll top  */
+a.scrollTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 10;
+}
+
 .container {
   max-width: 1160px;
   margin: 0 auto;
